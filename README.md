@@ -24,7 +24,7 @@ gg_label_tern(type="./data/garnet_mg_mn_ca.csv")+
 ggplot2::scale_fill_brewer(pallete="set2")
 
 gg_label_tern(type="./data/garnet_mg_fe_mn_ca.csv")+
-geom_point(data="yourDF",aes(x,y)
+geom_point(data="yourDF",aes(x,y)) # replace yourDF by a dataframe with your data
 
 
 <b>Authors</b>                                                 
