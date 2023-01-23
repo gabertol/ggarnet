@@ -16,4 +16,6 @@ gg_label_tern(type="./data/garnet_mg_fe_mn_ca.csv")+
 geom_point(data="yourDF",aes(x,y)
 
 
+Dr. Gabriel Bertolini
+Undergrad João Miguel Maraschin Santos
 
