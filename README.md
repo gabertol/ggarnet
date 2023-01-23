@@ -28,6 +28,6 @@ geom_point(data="yourDF",aes(x,y)) # replace yourDF by a dataframe with your dat
 
 
 <b>Authors</b>                                                 
-Dr. Gabriel Bertolini                                                 
+Dr. Gabriel Bertolini   (gabertol@gmail.com)                                              
 Undergrad João Miguel Maraschin Santos
 
