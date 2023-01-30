@@ -51,6 +51,4 @@ ggarnet_fe_mn<-function() {
                                                ggplot2::aes_string(y=colnames(grad)[3],x=colnames(grad)[2],z=colnames(grad)[1],fill=colnames(grad)[4]))
 
                        return(plot)
-
-
 }
