@@ -10,7 +10,7 @@ install.packages("devtools")
 
 2- Import dev tools from library and use install_github to download this package
 library(devtools)
-install_github("gabertol/ggarnet")
+devtools::install_github("gabertol/ggarnet")
 
 3- Import ggarnet
 library(ggarnet)
