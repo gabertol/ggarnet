@@ -43,16 +43,14 @@ ggarnet_fe_mn<-function() {
                        grad.lab<-plyr::ddply(grad,"Label",function(df)
                         {apply(df[,1:3],2,mean)})
 
-                        ggtern::ggtern(data=grad,ggplot2::aes_string(y=colnames(grad)[3],x=colnames(grad)[2],z=colnames(grad)[1],color=colnames(grad)[4],fill=colnames(grad)[4])) +
-                          ggplot2::geom_polygon(alpha=0.75,size=0.5,color="black") +
-                          ggtern::geom_mask() +
-                          ggplot2::geom_text(data=grad.lab,ggplot2::aes(label=Label),color="black",size=3.5) +
-                          ggtern::weight_percent() +
-                          ggplot2::guides(fill='none') +
-                          ggtern:: theme_legend_position("topleft") +
-                          ggplot2::labs(title = "Garnet",
-                                        fill  = "Label",
-                                        color = "Label")
+                       plot<-ggtern::ggtern() +
+                         ggplot2::geom_polygon(data=grad,
+                                               alpha=0.75,
+                                               size=0.5,
+                                               color="black",
+                                               ggplot2::aes_string(y=colnames(grad)[3],x=colnames(grad)[2],z=colnames(grad)[1],fill=colnames(grad)[4]))
+
+                       return(plot)
 
 
 }

@@ -5,8 +5,7 @@ Authors@R:
     person("Bertolini", "Gabriel", , "gabertol@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "https://orcid.org/0000-0002-3873-6190"))
 Description: Ternary classification themes fo mineral chemistry data.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: use_gpl_license()
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.0
+RoxygenNote: 7.2.3
