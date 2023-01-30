@@ -1,4 +1,4 @@
-#' ggarnet_fe_mn
+#' Title
 #'
 #' @param type = database name of the desired plot
 #' to see plots a available check data file
