@@ -8,7 +8,7 @@
 #'
 #' @examples ggarnet_mn()
 
-ggarnet_mn <- function(type) {
+ggarnet_mn<-function() {
 
   grad<-tibble::tribble(~"Mg",~"Mn",~"Ca",~"Label",
                         0,1,0,"Low P/T",

@@ -8,7 +8,7 @@
 #'
 #' @examples ggarnet_fe_mn()
 
-ggarnet_fe_mn <- function(type) {
+ggarnet_fe_mn<-function() {
 
   grad<-tibble::tribble(~"Mg",~"FeMn",~"Ca",~"Label",
                         0.7,0.3,0,"Type  A",
