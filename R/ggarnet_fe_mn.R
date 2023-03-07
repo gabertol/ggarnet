@@ -10,7 +10,7 @@
 
 ggarnet_fe_mn<-function() {
 
-  grad<-tibble::tribble(~"Ca",~"FeMn",~"Mg",~"Label",
+  grad<-tibble::tribble(~"Mg",~"FeMn",~"Ca",~"Label",
                         0.7,0.3,0,"Type  A",
                         0.2,0.8,0,"Type  A",
                         0.2,0.7,0.1,"Type  A",
@@ -48,7 +48,7 @@ ggarnet_fe_mn<-function() {
                                                alpha=0.75,
                                                size=0.5,
                                                color="black",
-                                               ggplot2::aes_string(y=colnames(grad)[3],x=colnames(grad)[2],z=colnames(grad)[1],fill=colnames(grad)[4]))
+                                               ggplot2::aes_string(y=colnames(grad)[3],x=colnames(grad)[1],z=colnames(grad)[2],fill=colnames(grad)[4]))
 
                        return(plot)
 }
