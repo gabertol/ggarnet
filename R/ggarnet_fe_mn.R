@@ -10,7 +10,7 @@
 
 ggarnet_fe_mn<-function() {
 
-  grad<-tibble::tribble(~"Mg",~"FeMn",~"Ca",~"Label",
+  grad<-tibble::tribble(~"Ca",~"FeMn",~"Mg",~"Label",
                         0.7,0.3,0,"Type  A",
                         0.2,0.8,0,"Type  A",
                         0.2,0.7,0.1,"Type  A",
