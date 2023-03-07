@@ -48,7 +48,7 @@ ggarnet_fe_mn<-function() {
                                                alpha=0.75,
                                                size=0.5,
                                                color="black",
-                                               ggplot2::aes_string(x=colnames(grad)[2],y=colnames(grad)[1],z=colnames(grad)[3],fill=colnames(grad)[4]))
+                                               ggplot2::aes_string(x=colnames(grad)[2],y=colnames(grad)[3],z=colnames(grad)[1],fill=colnames(grad)[4]))
 
                        return(plot)
 }
