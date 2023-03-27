@@ -11,7 +11,11 @@
 ggarnet_fe_mn<-function() {
 
 
+<<<<<<< HEAD
   grad<-read.csv("./data/garnet_mg_fe_mn_ca.csv") %>%
+=======
+  grad<-read.csv("./data/garnet/mg_fe_mn_ca.csv") %>%
+>>>>>>> f51cc47b3221c49cd950afc175478ec743f73aa3
     tibble()
 
 

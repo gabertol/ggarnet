@@ -10,7 +10,11 @@
 
 ggarnet_tourmaline<-function() {
 
+<<<<<<< HEAD
   grad<-read.csv("./data/ggarnet_tourmaline.csv") %>%
+=======
+  grad<-read.csv("./data/tourmaline.csv") %>%
+>>>>>>> f51cc47b3221c49cd950afc175478ec743f73aa3
     tibble()
 
    grad.lab<-plyr::ddply(grad,"Label",function(df)
