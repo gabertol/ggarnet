@@ -10,7 +10,7 @@
 
 ggarnet_mn<-function() {
 
-  grad<-read.csv("./data/garnet_mg_mn_ca.csv") %>%
+   grad<-read.csv(paste(.libPaths(),"/ggarnet/data/garnet_mg_mn_ca.csv",sep="")) %>%
     tibble()
 
   grad.lab<-plyr::ddply(grad,"Label",function(df)
