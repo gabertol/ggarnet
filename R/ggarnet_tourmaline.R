@@ -10,7 +10,7 @@
 
 ggarnet_tourmaline<-function() {
 
-  grad<-read.csv("./data/ggarnet_tourmaline.csv") %>%
+  grad<-read.csv(paste(.libPaths(),"/ggarnet/data/ggarnet_tourmaline.csv",sep="")) %>%
     tibble()
 
    grad.lab<-plyr::ddply(grad,"Label",function(df)
