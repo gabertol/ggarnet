@@ -9,7 +9,7 @@
 #' @examples ggarnet_fe_mn()
 
 ggarnet_fe_mn<-function() {
-  grad<-read.csv(paste(.libPaths(),"/ggarnet/data/garnet_mg_fe_mn_ca.csv",sep="")) %>%
+  grad<-read.csv(paste(find.package("ggarnet"),"/data/garnet_mg_fe_mn_ca.csv",sep="")) %>%
     tibble()
 
 
