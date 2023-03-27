@@ -2,3 +2,4 @@
 
 export(ggarnet_fe_mn)
 export(ggarnet_mn)
+export(ggarnet_tourmaline)

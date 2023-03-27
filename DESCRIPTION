@@ -6,6 +6,7 @@ Authors@R:
            comment = c(ORCID = "https://orcid.org/0000-0002-3873-6190"))
 Description: Ternary classification themes fo mineral chemistry data.
 License: use_gpl_license()
+Depends: tidyverse
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
