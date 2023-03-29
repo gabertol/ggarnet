@@ -21,6 +21,7 @@ library(ggarnet)
 ```
 
 ```{r}
+
 ggarnet_fe_mn()
 ggarnet_tourmaline()
 ```
