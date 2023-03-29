@@ -14,12 +14,14 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r setup}
+
+```{r}
+devtools::install_github("gabertol/ggarnet")
 library(ggarnet)
 ```
 
-
 ```{r}
+ggarnet_fe_mn()
 ggarnet_tourmaline()
 ```
 
