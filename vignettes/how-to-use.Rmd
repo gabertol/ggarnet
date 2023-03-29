@@ -20,6 +20,6 @@ library(ggarnet)
 
 
 ```{r}
-
+ggarnet_tourmaline()
 ```
 
