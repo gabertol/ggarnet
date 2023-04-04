@@ -2,7 +2,7 @@
 
 Minerals currently included (check data file to see the available datasets)
 - Garnet (including (1) Fe+Mn, Mg and Ca and (2) Mn, Mg and Ca)
-- Tourmaline (in prep)
+- Tourmaline (Al-Fe-Mg)
 
 <b>How to use</b>                                                  
 1- Install devtools in R
